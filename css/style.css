@@ -1,0 +1,214 @@
+body{
+    margin: auto;
+    background-color: #C246C6;
+    font-family: 'Exo 2', sans-serif;
+    color: #F8F8F8;
+}
+a{
+    text-decoration: none;
+    color: #F8F8F8;
+}
+a:hover{
+    text-decoration:underline;
+    color: #F8F8F8;
+}
+button{
+    background-color: #91157E;
+    font-family: 'Exo 2', sans-serif;
+    color: #F8F8F8;
+    border-radius: 7px;
+    border-width: 0px;
+    margin: 10px;
+    padding: 10px;
+}
+button:hover{
+    background-color: #C246C6;
+    box-shadow: 1px 1px 1px 1px black;
+}
+input{
+    border-radius: 7px;
+}
+select{
+    border-radius: 7px;
+}
+.box{
+    background-color: #65195E;
+    display: inline-block;
+    width: 35%;
+    padding: 20px;
+    border-radius: 20px;
+}
+.box input{
+    width: 70%;
+    height: 25px
+}
+.loginEmployee{
+    font-size: 1rem;
+    background-color: #2E79BA;
+}
+.loginEmployee:hover{
+    background-color: #5FC9F3;
+    box-shadow: 1px 1px 1px 1px black;
+}
+.loginEmployer{
+    font-size: 1rem;
+    background-color: #950101;
+}
+.loginEmployer:hover{
+    background-color: #db4141;
+    box-shadow: 1px 1px 1px 1px black;
+}
+/************************* SECTIONS *************************/
+
+
+/******* nav-SECTION *******/
+nav{
+    padding: 20px 30px 1px 30px;
+    background-color: #91157E;
+}
+nav p{
+    padding: 5px;
+}
+#munsalik_pk{
+    font-family: 'Big Shoulders Display';
+    padding: 5px;
+    font-size: 3rem;
+}
+#munsalik_pk:hover{
+    border-radius: 10px;
+    background-color: #91157E;
+}
+#nav-button1{
+    position: absolute;
+    right: 40px
+}
+#nav-button2{
+    position: absolute;
+    right: 85px
+}
+
+
+/******* goal-SECTION *******/
+#goal{
+    padding: 100px 10px;
+    text-align: center;
+}
+.goals_content{
+    display: inline-block;
+    width: 40%;
+}
+.goals_content:hover{
+    border-radius: 20px;
+    background-color: #65195E;
+}
+.goals_content img{
+    width: 60px;
+    padding: 10px;
+}
+
+
+/******* features-SECTION *******/
+#features{
+    text-align: center;
+    padding: 100px 10px;
+    background-color: #91157E;
+}
+.feature_item{
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+}
+.feature_item:hover{
+    background-color: #C246C6;
+    border-radius: 20px;
+}
+.feature_item img{
+    width: 60px;
+    padding: 10px;
+}
+
+
+/******* register-SECTION *******/
+#register{
+    text-align: center;
+    padding: 100px 10px;
+}
+.register_content{
+    display: inline-block;
+    width: 35%;
+    margin: 10px;
+    padding: 10px;
+}
+.register_content:hover{
+    background-color: #65195E;
+    border-radius: 20px;
+}
+.register_content button{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+
+/******* footer-SECTION *******/
+footer{
+    text-align: center;
+    padding: 100px 10px 10px 10px;
+    background-color: #65195E;
+}
+
+/******* register_page-SECTION *******/
+#register_page{
+    text-align: center;
+    padding: 50px;
+}
+/******* register_page-SECTION *******/
+#login_page{
+    text-align: center;
+    padding: 50px;
+}
+
+
+/************************* Responsiveness For Phones *************************/
+@media (max-width: 900px){
+    .box{
+        width: 65%;
+    }
+    .box input{
+        width: 80%;
+    }
+    .goals_content{
+        width: 75%;
+    }
+    .feature_item{
+        width: 35%;
+    }
+    .register_content{
+        width: 75%;
+    }
+}
+@media (max-width: 500px){
+    .box{
+        width: 90%;
+    }
+    .box input{
+        width: 90%;
+    }
+    .goals_content{
+        width: 90%;
+    }
+    .feature_item{
+        width: 40%;
+    }
+    .register_content{
+        width: 85%;
+    }
+    #nav-button1{
+        position: absolute;
+        right: 40px;
+        top: 50px;
+    }
+    #nav-button2{
+        position: absolute;
+        right: 40px
+    }
+}

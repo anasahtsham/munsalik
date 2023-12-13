@@ -1,0 +1,201 @@
+body{
+    
+    margin: auto;
+    background-color: #5FC9F3;
+    font-family: 'Exo 2', sans-serif;
+    color: #F8F8F8;
+}
+textarea{
+    resize: none;
+    width: 70%;
+    height: 150px;
+    border-radius: 7px;
+}
+.TABLE table{
+    margin-left: auto;
+    margin-right: auto;
+}
+.TABLE{
+    overflow-x:auto;
+}
+table {
+    border-collapse:separate;
+    border:solid white 2px;
+    border-radius:10px;
+    
+}
+
+td, th {
+    border-left:solid white 2px;
+    border-top:solid white 2px;
+    text-align: center;
+    padding: 15px;
+}
+
+th {
+    border-top: none;
+}
+
+td:first-child, th:first-child {
+     border-left: none;
+}
+a{
+    text-decoration: none;
+    color: #F8F8F8;
+}
+a:hover{
+    text-decoration:underline;
+    color: #F8F8F8;
+    box-shadow: 1px 1px 1px 1px black;
+}
+button{
+    background-color: #2E79BA;
+    font-family: 'Exo 2', sans-serif;
+    color: #F8F8F8;
+    border-radius: 7px;
+    border-width: 0px;
+    margin: 10px;
+    padding: 10px;
+}
+button:hover{
+    background-color: #5FC9F3;
+    box-shadow: 1px 1px 1px 1px black;
+}
+input{
+    border-radius: 7px;
+}
+select{
+    border-radius: 7px;
+}
+.box{
+    background-color: #1E549F;
+    display: inline-block;
+    width: 35%;
+    padding: 20px;
+    border-radius: 20px;
+}
+.cv_content{
+    text-align:left;
+}
+.cv_view{
+    text-align:left;
+}
+.box input{
+    width: 70%;
+    height: 25px
+}
+.bigBox{
+    background-color: #1E549F;
+    display: inline-block;
+    width: 95%;
+    padding: 20px;
+    border-radius: 20px;
+}
+.bigBox button{
+    background-color: #2E79BA;
+    display: inline-block;
+    width: 60%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+.bigBox button:hover{
+    background-color: #5FC9F3;
+    box-shadow: 2px 2px 2px 2px black;
+}
+.bigBox input{
+    width: 70%;
+    height: 25px
+}
+/************************* SECTIONS *************************/
+/******* nav-SECTION *******/
+nav{
+    padding: 20px 30px 1px 30px;
+    background-color: #2E79BA;
+}
+nav p{
+    padding: 5px;
+}
+#munsalik_pk{
+    font-family: 'Big Shoulders Display', cursive;
+    padding: 5px;
+    font-size: 3rem;
+}
+#munsalik_pk:hover{
+    border-radius: 10px;
+    background-color: #5FC9F3;
+}
+/******* footer-SECTION *******/
+footer{
+    text-align: center;
+    padding: 100px 10px 10px 10px;
+    background-color: #2E79BA;
+}
+
+/******* register_page-SECTION *******/
+#register_page{
+    text-align: center;
+    padding: 50px;
+}
+/******* register_page-SECTION *******/
+#login_page{
+    text-align: center;
+    padding: 50px;
+}
+/******* homepage-SECTION *******/
+.homepage_content{
+    text-align: center;
+    padding: 50px;
+}
+
+/************************* Responsiveness For Phones *************************/
+@media (max-width: 900px){
+    .box{
+        width: 65%;
+    }
+    .box input{
+        width: 80%;
+    }
+    .box textarea{
+        width: 80%;
+    }
+    .goals_content{
+        width: 75%;
+    }
+    .feature_item{
+        width: 35%;
+    }
+    .register_content{
+        width: 75%;
+    }
+}
+@media (max-width: 500px){
+    .box{
+        width: 90%;
+    }
+    .box textarea{
+        width: 90%;
+    }
+    .box input{
+        width: 90%;
+    }
+    .goals_content{
+        width: 90%;
+    }
+    .feature_item{
+        width: 40%;
+    }
+    .register_content{
+        width: 85%;
+    }
+    #nav-button1{
+        position: absolute;
+        right: 40px;
+        top: 50px;
+    }
+    #nav-button2{
+        position: absolute;
+        right: 40px
+    }
+}
